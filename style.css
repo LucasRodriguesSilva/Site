@@ -72,3 +72,22 @@ header {
     padding-left: 64%;
     padding-top: 15px;
 }
+
+.redmi10 img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 170px;
+    position: absolute;
+    left: 190px;
+    top: 180px;
+}
+
+.redmi10 p{
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+    width: 300px;
+    position: absolute;
+    left: 130px;
+    top: 430px;
+}
