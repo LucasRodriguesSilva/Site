@@ -73,21 +73,25 @@ header {
     padding-top: 15px;
 }
 
-.redmi10 img{
-    max-width: 100%;
-    max-height: 100%;
-    width: 170px;
+.redmi10 {
+    text-align: center;
     position: absolute;
-    left: 190px;
-    top: 180px;
+    top: 150px;
+    left: 10%;
+    transition-duration: 100ms;
 }
 
-.redmi10 p{
-    text-align: center;
-    max-width: 100%;
-    max-height: 100%;
-    width: 300px;
-    position: absolute;
-    left: 130px;
-    top: 430px;
+.redmi10 img {
+    width: 200px;
 }
+
+.redmi10 p {
+    margin-top: 20px;
+    color: black;
+}
+
+.redmi10:hover {
+    transform: scale(1.1);
+    transition-duration:100ms;
+}
+
