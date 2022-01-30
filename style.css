@@ -73,25 +73,58 @@ header {
     padding-top: 15px;
 }
 
-.redmi10 {
+.celulares {
     text-align: center;
     position: absolute;
     top: 150px;
-    left: 10%;
+    left: 70px;
     transition-duration: 100ms;
 }
 
-.redmi10 img {
+.celulares img {
     width: 200px;
 }
 
-.redmi10 p {
+.celulares p {
     margin-top: 20px;
     color: black;
 }
 
-.redmi10:hover {
+.celulares:hover {
     transform: scale(1.1);
     transition-duration:100ms;
 }
 
+.segundoCelular, .segundoCelular img {
+    left: 435px;
+    width: 185px;
+}
+
+.terceiroCelular, .terceiroCelular img, .terceiroCelular p {
+    left: 53%;
+    top: 135px;
+    width: 280px;
+    margin-top: 0px;
+    transition: left 300ms, top 300ms linear 300ms;
+}
+
+@media only screen and (max-width: 1300px) {
+    .terceiroCelular {
+        top: 500px;
+        left: 40px;
+        transition: top 300ms, left 300ms linear 200ms;
+    }
+}
+
+.quartoCelular {
+    left: 80%;
+    transition: left 300ms, top 300ms linear 300ms;
+}
+
+@media only screen and (max-width: 1300px) {
+    .quartoCelular {
+        top: 520px;
+        left: 420px;
+        transition: top 300ms, left 300ms linear 300ms;
+    }
+}
